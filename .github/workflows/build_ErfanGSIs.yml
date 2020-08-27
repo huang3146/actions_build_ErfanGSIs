@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://hugeota.d.miui.com/20.8.25/miui_MI8Lite_20.8.25_a09f3f22ec_10.0.zip
+  ROM_URL1: https://cloud189-liaoning-person.oos-lnsy.ctyunapi.cn/1b5d2715-4074-4dcb-bbb8-537f3873e08d?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=532482dfdc85e5d60592&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22AcmeMiui_Mi5X_20.8.13_4e3d3e48_10.0_by_MistyRain.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D20&Signature=ARKmbbJ4L69gare7JPQxsc8AFSM%3D&x-amz-SHID=169847395&Expires=1598553569&x-amz-FSIZE=1962987409&x-amz-UFID=91377211259271461 
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -33,7 +33,7 @@ jobs:
 
        - name: Cloning ErfanGSIs tools
          run: |
-            git clone --recurse-submodules https://github.com/tianwen22/ErfanGSIs.git
+            git clone --recurse-submodule https://github.com/WhiteMouseHuang/ErfanGSIs.git
             sudo chmod -R 777 ErfanGSIs
             curl -sL https://git.io/file-transfer | sh
              
