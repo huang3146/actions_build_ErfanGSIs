@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: http://bigota.d.miui.com/20.9.4/miui_MIMAX3_20.9.4_21e974cc03_10.0.zip
+  ROM_URL1: https://hugeota.d.miui.com/20.9.9/miui_DAVINCI_20.9.9_396a5576e3_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
