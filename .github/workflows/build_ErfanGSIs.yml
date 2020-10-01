@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://cloud189-shandong-person.oos-sdqd.ctyunapi.cn/d28e66f2-2055-44d8-ad12-5fe9bc5f2b47?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=caf5e6901807aca55a45&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22MiuiPro_MIX3_20.4.17_fc072d4f_10.0.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D20&Signature=0olzSSxBlKI4GqMbJrMR1rj2DLE%3D&x-amz-SHID=170083591&Expires=1601404116&x-amz-FSIZE=2239931218&x-amz-UFID=71427311685665220
+  ROM_URL1: http://14.204.184.129/bigota.d.miui.com/V12.0.1.0.PDICNXM/miui_HM6Pro_V12.0.1.0.PDICNXM_81d8bc0ad2_9.0.zip?ksy_gslb_referer=http%3A%2F%2Fwww.miui.com%2Fgetrom.php%3Fr%3D351%26m%3Dyes%26app%3Dfalse 
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -45,7 +45,7 @@ jobs:
        
        - name: Download Stock Rom & Generate GSI
          run: |
-           sudo ./ErfanGSIs/url2GSI.sh --ab $ROM_URL1 $ROM_NAME
+           sudo ./ErfanGSIs/url2GSI.sh --aonly $ROM_URL1 $ROM_NAME
            ls /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
            7z a -r gsi.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
            sudo ./transfer wet gsi.7z
