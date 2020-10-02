@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: http://14.204.184.129/bigota.d.miui.com/V12.0.1.0.PDICNXM/miui_HM6Pro_V12.0.1.0.PDICNXM_81d8bc0ad2_9.0.zip?ksy_gslb_referer=http%3A%2F%2Fwww.miui.com%2Fgetrom.php%3Fr%3D351%26m%3Dyes%26app%3Dfalse 
+  ROM_URL1: https://hugeota.d.miui.com/20.9.29/miui_GRUS_20.9.29_fbeef374d4_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
