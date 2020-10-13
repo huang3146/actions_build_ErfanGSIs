@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://hugeota.d.miui.com/20.9.29/miui_GRUS_20.9.29_fbeef374d4_10.0.zip
+  ROM_URL1: https://cloud189-xizang-person.oos-xzls.ctyunapi.cn/f8bd96ff-50a2-4ba9-898b-998aa0d80a08?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=532482dfdc85e5d60592&x-amz-limitrate=10240&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22miuipro_v10.0_davinci_20.9.4.zip.zip____miuipro_v10.0_davinci_20.9.4.zip%281%29%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=iepiljH7VFP8a9Imkbn5kquOljs%3D&x-amz-SHID=170161496&Expires=1602611870&x-amz-FSIZE=2464024218&x-amz-UFID=51323211833848563
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -33,7 +33,7 @@ jobs:
 
        - name: Cloning ErfanGSIs tools
          run: |
-            git clone --recurse-submodules https://github.com/WhiteMouseHuang/ErfanGSIs.git
+            git clone --recurse-submodules https://github.com/tianwen22/ErfanGSIs.git
             sudo chmod -R 777 ErfanGSIs
             curl -sL https://git.io/file-transfer | sh
              
@@ -45,7 +45,7 @@ jobs:
        
        - name: Download Stock Rom & Generate GSI
          run: |
-           sudo ./ErfanGSIs/url2GSI.sh --aonly $ROM_URL1 $ROM_NAME
+           sudo ./ErfanGSIs/url2GSI.sh --ab $ROM_URL1 $ROM_NAME
            ls /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
            7z a -r gsi.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
            sudo ./transfer wet gsi.7z
