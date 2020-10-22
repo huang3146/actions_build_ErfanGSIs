@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://hugeota.d.miui.com/20.10.15/miui_LAVENDER_20.10.15_1fa315ed9e_10.0.zip
+  ROM_URL1: https://14-205-45-4.ksyungslb.com/bigota.d.miui.com/20.10.22/miui_VIOLET_20.10.22_367151adc1_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fgithub.com%2FmooseIre%2Fupdate_miui_ota%2Fblob%2Fmaster%2FDevelop%2FRedmi%2520Note7%2520Pro.md
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -45,7 +45,7 @@ jobs:
        
        - name: Download Stock Rom & Generate GSI
          run: |
-           sudo ./ErfanGSIs/url2GSI.sh --ab $ROM_URL1 $ROM_NAME
+           sudo ./ErfanGSIs/url2GSI.sh --aonly $ROM_URL1 $ROM_NAME
            ls /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
            7z a -r gsi.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
            sudo ./transfer wet gsi.7z
