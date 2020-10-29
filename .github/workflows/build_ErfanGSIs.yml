@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://14-205-45-4.ksyungslb.com/bigota.d.miui.com/20.10.22/miui_VIOLET_20.10.22_367151adc1_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fgithub.com%2FmooseIre%2Fupdate_miui_ota%2Fblob%2Fmaster%2FDevelop%2FRedmi%2520Note7%2520Pro.md
+  ROM_URL1: https://hugeota.d.miui.com/20.10.29/miui_VIOLET_20.10.29_b8af5559d9_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
