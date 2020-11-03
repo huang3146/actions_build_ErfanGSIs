@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://hugeota.d.miui.com/20.11.2/miui_LAVENDER_20.11.2_c40555406e_10.0.zip
+  ROM_URL1: https://hugeota.d.miui.com/20.11.3/miui_VIOLET_20.11.3_919f6ac0ff_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -45,7 +45,7 @@ jobs:
        
        - name: Download Stock Rom & Generate GSI
          run: |
-           sudo ./ErfanGSIs/url2GSI.sh $ROM_URL1 $ROM_NAME
+           sudo ./ErfanGSIs/url2GSI.sh --aonly $ROM_URL1 $ROM_NAME
            ls /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
            7z a -r gsi.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
            sudo ./transfer wet gsi.7z
