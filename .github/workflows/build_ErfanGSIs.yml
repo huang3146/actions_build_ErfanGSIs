@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://bigota.d.miui.com/20.3.26/miui_LAVENDER_20.3.26_eae10f6555_10.0.zip
+  ROM_URL1: https://hugeota.d.miui.com/20.9.4/miui_MI8SE_20.9.4_8b18fec4c4_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -33,7 +33,7 @@ jobs:
 
        - name: Cloning ErfanGSIs tools
          run: |
-            git clone --recurse-submodules https://github.com/WhiteMouseHuang/ErfanGSIs.git
+            git clone --recurse-submodules https://github.com/tianwen22/ErfanGSIs.git
             sudo chmod -R 777 ErfanGSIs
             curl -sL https://git.io/file-transfer | sh
              
