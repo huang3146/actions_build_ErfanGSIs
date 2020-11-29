@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://cloud189-xizang-person.oos-xzls.ctyunapi.cn/fe25973b-0447-42d3-8613-1b4de05a71a4?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=532482dfdc85e5d60592&x-amz-limitrate=10240&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22BiancaProject-v1.1-UNOFFICIAL-whyred-24112020-0854.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=0QMSslWwVJrmDcRSdqFBTUV9jOQ%3D&x-amz-SHID=170500635&Expires=1606666722&x-amz-FSIZE=737352296&x-amz-UFID=81511212155458250
+  ROM_URL1: https://cloud189-shzh-person.oos-gdsz.ctyunapi.cn/e71f728c-ef1b-4380-b9a4-49daacdf2c5c?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=18bd696e8df5d7a48893&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22WeebProjekt-2.1.0%2B-20201121-R-OFFICIAL.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D20&Signature=QPGcJMkNs3RhMaHMyYP5YVmSjTA%3D&x-amz-SHID=170500628&Expires=1606669496&x-amz-FSIZE=1113536554&x-amz-UFID=61325212182551428
   ROM_NAME: Generic
   TZ: Asia/Shanghai
 
