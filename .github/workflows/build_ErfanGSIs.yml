@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://cloud189-liaoning-person.oos-lnsy.ctyunapi.cn/PERSONCLOUD/b7311158-55db-4ba4-b6e1-0a78275860f7?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=532482dfdc85e5d60592&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22miuipro_v10.0_ginkgo_20.11.5_patched_fix-en%2Cvi%2Cbr.zip%EF%BC%88%E5%89%AF%E6%9C%AC%EF%BC%89%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D15&Signature=KZg/IiH0r4brGDRDQ%2Brow4MTEAo%3D&x-amz-SHID=170662734&Expires=1608109795&x-amz-FSIZE=2012263209&x-amz-UFID=71417112287906580
+  ROM_URL1: https://cloud189-xizang-person.oos-xzls.ctyunapi.cn/61985045-b6b0-4e95-9fa0-802176d6d053?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=532482dfdc85e5d60592&x-amz-limitrate=10240&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22miuipro_v10.0_lavender_20.12.10.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=TEUyGS5KKiSUftsrTJfSOCobiIo%3D&x-amz-SHID=170855716&Expires=1609249311&x-amz-FSIZE=2099761155&x-amz-UFID=31549212282566330
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
