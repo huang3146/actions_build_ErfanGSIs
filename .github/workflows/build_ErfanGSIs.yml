@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://116-207-104-1.ksyungslb.com/bigota.d.miui.com/V12.0.3.0.QJECNXM/miui_CANNON_V12.0.3.0.QJECNXM_1fd3c53c91_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fwww.miui.com%2Fdownload-370.html
+  ROM_URL: https://116-211-122-3.ksyungslb.com/bigota.d.miui.com/V12.0.3.0.QCOCNXM/miui_GINKGO_V12.0.3.0.QCOCNXM_e41fdaaac9_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fwww.miui.com%2Fdownload-363.html
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
