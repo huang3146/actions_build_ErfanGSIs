@@ -61,7 +61,9 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer FireFox
+
+FireFox final/GSI.zip
 
          
             
