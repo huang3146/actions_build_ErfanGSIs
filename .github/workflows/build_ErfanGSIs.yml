@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://cloud189-xizang-person.oos-xzls.ctyunapi.cn/61985045-b6b0-4e95-9fa0-802176d6d053?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=532482dfdc85e5d60592&x-amz-limitrate=10240&x-amz-UID=733920062&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22miuipro_v10.0_lavender_20.12.10.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=TEUyGS5KKiSUftsrTJfSOCobiIo%3D&x-amz-SHID=170855716&Expires=1609249311&x-amz-FSIZE=2099761155&x-amz-UFID=31549212282566330
+  ROM_URL1: https://116-207-104-1.ksyungslb.com/bigota.d.miui.com/V12.0.3.0.QJECNXM/miui_CANNON_V12.0.3.0.QJECNXM_1fd3c53c91_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fwww.miui.com%2Fdownload-370.html
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
